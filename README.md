@@ -78,5 +78,3 @@ For questions or freelance inquiries:
 This project is for **learning and practice purposes**. Feel free to fork, use, and improve.
 
 ---
-
-👉 Do you want me to also include a **progress roadmap** (like “Week 1: Basics, Week 2: Navigation, Week 3: APIs…”), so the README doubles as your personal learning tracker?
