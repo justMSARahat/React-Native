@@ -7,12 +7,12 @@ A comprehensive, hands-on guide to learning **React Native** by building real-wo
 ## ✨ Features
 
 ✅ Beginner-friendly explanations with examples </br>
-✅ Covers React Native fundamentals (components, props, state, styling)
-✅ Navigation with **React Navigation**
-✅ State management with **Context API / Redux**
-✅ API integration with **Fetch / Axios**
-✅ Hands-on projects to practice concepts
-✅ Cross-platform (iOS & Android) support
+✅ Covers React Native fundamentals (components, props, state, styling) </br>
+✅ Navigation with **React Navigation** </br>
+✅ State management with **Context API / Redux** </br>
+✅ API integration with **Fetch / Axios** </br>
+✅ Hands-on projects to practice concepts </br>
+✅ Cross-platform (iOS & Android) support </br>
 
 ---
 
