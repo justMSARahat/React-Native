@@ -6,7 +6,7 @@ A comprehensive, hands-on guide to learning **React Native** by building real-wo
 
 ## ✨ Features
 
-✅ Beginner-friendly explanations with examples
+✅ Beginner-friendly explanations with examples </br>
 ✅ Covers React Native fundamentals (components, props, state, styling)
 ✅ Navigation with **React Navigation**
 ✅ State management with **Context API / Redux**
