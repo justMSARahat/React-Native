@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Truth & Dare",
+    "slug": "truth-and-dare",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0e0f13"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.justmsarahat.truthanddare"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "691c2113-4ea0-4aa2-9c0d-16c201eef064"
+      }
+    }
+  }
+}
