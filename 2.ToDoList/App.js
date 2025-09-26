@@ -1,4 +1,5 @@
 import { useState } from 'react';
+<<<<<<< HEAD
 import { StyleSheet, Text, View, TextInput, Button, ScrollView, FlatList} from 'react-native';
 
 export default function App() {
@@ -38,6 +39,68 @@ export default function App() {
         }}/>
       </View>
     </View>
+=======
+import { StyleSheet, View, TextInput, Button, FlatList } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+
+import GoalItem from './components/GoalItem';
+import GoalInput from './components/GoalInput';
+
+export default function App() {
+
+  const [goals, setGoals] = useState([]);
+  const [modalIsvisible, setmodalIsvisible] = useState(false);
+
+  function startAddGoalHandler() {
+    setmodalIsvisible(true);
+  }
+  function endAddGoalHandler() {
+    setmodalIsvisible(false);
+  }
+
+  function addGoal(input) {
+    if (input.trim() === '') return;
+    setGoals(prevGoals => [...prevGoals,
+    { text: input, id: Math.random().toString() },
+    ]);
+
+    setmodalIsvisible(false);
+
+  }
+  function deleteGoalHandle(id) {
+    setGoals(prevGoals => {
+      return prevGoals.filter((goal) => goal.id !== id);
+    });
+  }
+
+
+  return (
+    <>
+
+    <StatusBar style='auto'/>
+    <View style={styles.mainContainer}>
+      <Button title='Add New Goal' color="#eda32a" onPress={startAddGoalHandler} />
+      <GoalInput
+        onAddGoal={addGoal}
+        visible={modalIsvisible}
+        oncancle={endAddGoalHandler}
+      />
+      <View style={styles.outputContainer}>
+        <FlatList
+          data={goals}
+          renderItem={(itemData) => {
+            return (
+              <GoalItem
+                text={itemData.item.text}
+                id={itemData.item.id}
+                onDeleteItem={deleteGoalHandle}
+              />
+            );
+          }} />
+      </View>
+    </View>
+    </>
+>>>>>>> 568c328 (It's 26th of September | Module 04)
   );
 }
 
@@ -47,6 +110,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 30,
     flex: 1,
   },
+<<<<<<< HEAD
   inputContainer: {
     flex: 1,
     flexDirection: 'row',
@@ -65,11 +129,18 @@ const styles = StyleSheet.create({
   },
   outputContainer: {
     flex: 11,
+=======
+
+  outputContainer: {
+    flex: 1,
+    marginTop: 20,
+>>>>>>> 568c328 (It's 26th of September | Module 04)
   },
   textOutputContainer: {
     fontWeight: 'bold',
     marginBottom: 10,
   },
+<<<<<<< HEAD
   goalsListContainer: {
     marginBottom: 10,
     borderWidth: 1,
@@ -82,4 +153,8 @@ const styles = StyleSheet.create({
   goalsList: {
     color: 'white',
   },
+=======
+
+
+>>>>>>> 568c328 (It's 26th of September | Module 04)
 });
