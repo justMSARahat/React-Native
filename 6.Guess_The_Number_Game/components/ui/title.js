@@ -20,6 +20,9 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: colors.accent500,
         padding: 12,
+        maxWidth: '80%',
+        width: 300,
+
 
 
     },

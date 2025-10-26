@@ -1,4 +1,4 @@
-import { TextInput, View, StyleSheet, Alert, Text } from "react-native";
+import { TextInput, View, StyleSheet, Alert, Text, useWindowDimensions, KeyboardAvoidingView, ScrollView } from "react-native";
 import PrimaryButton from "../components/ui/PrimaryButton";
 import { useState } from "react";
 import colors from "../constants/colors";
@@ -6,7 +6,10 @@ import Title from "../components/ui/title";
 import Card from "../components/ui/Card";
 import InstructionText from "../components/ui/InstructionText";
 
-function StartGameScreen({isNumberPicked}) {
+function StartGameScreen({ isNumberPicked }) {
+
+    const { width, height } = useWindowDimensions();
+
     const [enterednumber, setEnteredNumber] = useState('');
     function numberInputHandler(enteredText) {
         setEnteredNumber(enteredText)
@@ -40,44 +43,55 @@ function StartGameScreen({isNumberPicked}) {
         }
     }
 
-    return (
-        <View style={styles.rootcontainer}>
-        <View>
-            <Title>Guess My Number</Title>
-        </View>
-            <Card>
-                <InstructionText>Enter Your Favorite Number!</InstructionText>
-                <TextInput
-                    style={styles.numberInput}
-                    maxLength={2}
-                    keyboardType="number-pad"
-                    autoCapitalize="none"
-                    value={enterednumber}
-                    onChangeText={numberInputHandler}
-                />
-                <View style={styles.buttonsContainer}>
-                    <View style={styles.buttonContainer}>
-                        <PrimaryButton
-                            onPress={resetInput}
-                        >Reset</PrimaryButton>
-                    </View>
-                    <View style={styles.buttonContainer}>
-                        <PrimaryButton
-                            onPress={confirmInputHandler}
-                        >Confirm</PrimaryButton>
-                    </View>
-                </View>
+    const margnTopDistance = height < 500 ? 20 : 100;
 
-            </Card>
-        </View >
+    return (
+        <ScrollView style={styles.screen} >
+            <KeyboardAvoidingView style={styles.screen} behavior="position">
+                <View style={[styles.rootcontainer, { marginTop: margnTopDistance }]} >
+                    <View>
+                        <Title>Guess My Number</Title>
+                    </View>
+                    <Card>
+                        <InstructionText>Enter Your Favorite Number!</InstructionText>
+                        <TextInput
+                            style={styles.numberInput}
+                            maxLength={2}
+                            keyboardType="number-pad"
+                            autoCapitalize="none"
+                            value={enterednumber}
+                            onChangeText={numberInputHandler}
+                        />
+                        <View style={styles.buttonsContainer}>
+                            <View style={styles.buttonContainer}>
+                                <PrimaryButton
+                                    onPress={resetInput}
+                                >Reset</PrimaryButton>
+                            </View>
+                            <View style={styles.buttonContainer}>
+                                <PrimaryButton
+                                    onPress={confirmInputHandler}
+                                >Confirm</PrimaryButton>
+                            </View>
+                        </View>
+
+                    </Card>
+                </View >
+            </KeyboardAvoidingView>
+        </ScrollView>
     );
 }
 export default StartGameScreen;
 
+// const deviceHeight =  Dimensions.get('window').height;
+
 const styles = StyleSheet.create({
-    rootcontainer:{
+    screen: {
         flex: 1,
-        marginTop: 70,
+    },
+    rootcontainer: {
+        flex: 1,
+        // marginTop: deviceHeight < 500 ? 10 : 100,
         alignItems: 'center'
     },
 
@@ -86,7 +100,7 @@ const styles = StyleSheet.create({
         height: 70,
         width: 70,
         fontSize: 32,
-        borderBottomColor: colors.accent500 ,
+        borderBottomColor: colors.accent500,
         borderBottomWidth: 2,
         color: colors.accent500,
         fontWeight: 'bold',

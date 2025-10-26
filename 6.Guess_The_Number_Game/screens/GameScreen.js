@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet, Alert, FlatList } from "react-native";
+import { Text, View, StyleSheet, Alert, FlatList, useWindowDimensions } from "react-native";
 import Title from "../components/ui/title";
 import { useState, useEffect } from "react";
 import NumberContainer from "../components/game/NumberContainer";
@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     padding: 12,
+    alignItems: 'center',
   },
 
   buttonsContainer: {
