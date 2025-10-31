@@ -1,0 +1,986 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Action",
+            "image_url": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c2"
+        },
+        {
+            "id": 2,
+            "name": "Adventure",
+            "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+        },
+        {
+            "id": 3,
+            "name": "Science Fiction",
+            "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+        },
+        {
+            "id": 4,
+            "name": "Romance",
+            "image_url": "https://images.unsplash.com/photo-1517602302552-471fe67acf66"
+        },
+        {
+            "id": 5,
+            "name": "Drama",
+            "image_url": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc"
+        },
+        {
+            "id": 6,
+            "name": "Comedy",
+            "image_url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+        },
+        {
+            "id": 7,
+            "name": "Horror",
+            "image_url": "https://images.unsplash.com/photo-1606112219348-204d7d8b94ee"
+        },
+        {
+            "id": 8,
+            "name": "Thriller",
+            "image_url": "https://images.unsplash.com/photo-1505685296765-3a2736de412f"
+        },
+        {
+            "id": 9,
+            "name": "Mystery",
+            "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+        },
+        {
+            "id": 10,
+            "name": "Animation",
+            "image_url": "https://images.unsplash.com/photo-1574169208507-843761748f52"
+        },
+        {
+            "id": 11,
+            "name": "Fantasy",
+            "image_url": "https://images.unsplash.com/photo-1495567720989-cebdbdd97913"
+        },
+        {
+            "id": 12,
+            "name": "Documentary",
+            "image_url": "https://images.unsplash.com/photo-1525186402429-b4ff38bedbec"
+        },
+        {
+            "id": 13,
+            "name": "Crime",
+            "image_url": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0"
+        },
+        {
+            "id": 14,
+            "name": "Biography",
+            "image_url": "https://images.unsplash.com/photo-1509395176047-4a66953fd231"
+        },
+        {
+            "id": 15,
+            "name": "Musical",
+            "image_url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d"
+        },
+        {
+            "id": 16,
+            "name": "War",
+            "image_url": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24"
+        },
+        {
+            "id": 17,
+            "name": "Western",
+            "image_url": "https://images.unsplash.com/photo-1473187983305-f615310e7daa"
+        },
+        {
+            "id": 18,
+            "name": "Family",
+            "image_url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91"
+        },
+        {
+            "id": 19,
+            "name": "History",
+            "image_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+        },
+        {
+            "id": 20,
+            "name": "Superhero",
+            "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+        }
+    ],
+    "movies": [
+        {
+            "id": 1,
+            "categoryId": 1,
+            "title": "Velocity Strike",
+            "poster_url": "https://images.unsplash.com/photo-1581905764498-7e3d8eeb69d6",
+            "rating": 8.1,
+            "director": "Lara Finch",
+            "release_date": "2024-07-05",
+            "synopsis": "An elite driver must outpace a syndicate controlling the city’s streets.",
+            "cast": [
+                "Evan Miles",
+                "Rosa Bennett"
+            ],
+            "reviews": [
+                {
+                    "user": "actionlover",
+                    "rating": 9,
+                    "comment": "Fast, loud, and thrilling!"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoryId": 1,
+            "title": "Urban Siege",
+            "poster_url": "https://images.unsplash.com/photo-1590608897129-79da98d159e2",
+            "rating": 7.5,
+            "director": "Carlos Mendez",
+            "release_date": "2023-09-20",
+            "synopsis": "A retired cop returns to save his city from chaos.",
+            "cast": [
+                "Julian Brooks",
+                "Hannah Wills"
+            ],
+            "reviews": [
+                {
+                    "user": "blastfan",
+                    "rating": 7,
+                    "comment": "Classic cop action with heart."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoryId": 2,
+            "title": "Winds of Avalon",
+            "poster_url": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc",
+            "rating": 8.4,
+            "director": "Sasha Nguyen",
+            "release_date": "2025-02-14",
+            "synopsis": "An explorer seeks a mythical island said to defy time itself.",
+            "cast": [
+                "Ronan Pierce",
+                "Lena Kaur"
+            ],
+            "reviews": [
+                {
+                    "user": "seeker42",
+                    "rating": 9,
+                    "comment": "Epic visuals and a haunting score."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoryId": 3,
+            "title": "Neural Divide",
+            "poster_url": "https://images.unsplash.com/photo-1542751110-97427bbecf20",
+            "rating": 8.3,
+            "director": "Darius Holt",
+            "release_date": "2025-03-22",
+            "synopsis": "In a future where memories are traded, a hacker uncovers a dark truth.",
+            "cast": [
+                "Nina Alvarez",
+                "Jonas Redd"
+            ],
+            "reviews": [
+                {
+                    "user": "futuregeek",
+                    "rating": 8,
+                    "comment": "Smart and haunting."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoryId": 3,
+            "title": "The Midnight Paradox",
+            "poster_url": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4",
+            "rating": 8.5,
+            "director": "Ava Reynolds",
+            "release_date": "2024-09-15",
+            "synopsis": "A physicist discovers how to send messages back in time.",
+            "cast": [
+                "Ethan Clarke",
+                "Marisol Vega"
+            ],
+            "reviews": [
+                {
+                    "user": "astro_nerd",
+                    "rating": 9,
+                    "comment": "Time travel done right."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoryId": 4,
+            "title": "Lost in Verona",
+            "poster_url": "https://images.unsplash.com/photo-1517602302552-471fe67acf66",
+            "rating": 7.3,
+            "director": "Marco Di Santis",
+            "release_date": "2023-02-10",
+            "synopsis": "A photographer and musician fall in love in Verona.",
+            "cast": [
+                "Lina Harper",
+                "Antonio Rossi"
+            ],
+            "reviews": [
+                {
+                    "user": "wanderlust_girl",
+                    "rating": 8,
+                    "comment": "Heartfelt and cinematic."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoryId": 5,
+            "title": "Shattered Reflections",
+            "poster_url": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc",
+            "rating": 8.2,
+            "director": "Amir Patel",
+            "release_date": "2024-03-19",
+            "synopsis": "A pianist revisits her tragic past through music.",
+            "cast": [
+                "Sophia Lee",
+                "Noah Kim"
+            ],
+            "reviews": [
+                {
+                    "user": "dramalover",
+                    "rating": 9,
+                    "comment": "Raw and emotional."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoryId": 6,
+            "title": "Roommates from Space",
+            "poster_url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+            "rating": 6.9,
+            "director": "Ben Thomas",
+            "release_date": "2024-06-12",
+            "synopsis": "Two aliens move into a New York apartment.",
+            "cast": [
+                "Kyle Reyes",
+                "Amy Wong"
+            ],
+            "reviews": [
+                {
+                    "user": "lolman",
+                    "rating": 7,
+                    "comment": "Ridiculous but hilarious."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoryId": 7,
+            "title": "Whispers in the Attic",
+            "poster_url": "https://images.unsplash.com/photo-1606112219348-204d7d8b94ee",
+            "rating": 7.8,
+            "director": "Naomi Firth",
+            "release_date": "2024-10-31",
+            "synopsis": "A couple inherits an old mansion and hears voices.",
+            "cast": [
+                "Elliot Barnes",
+                "Rose Calder"
+            ],
+            "reviews": [
+                {
+                    "user": "ghosthunter88",
+                    "rating": 8,
+                    "comment": "Creepy perfection."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoryId": 8,
+            "title": "Silent Pulse",
+            "poster_url": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+            "rating": 7.6,
+            "director": "Mira Chang",
+            "release_date": "2024-11-22",
+            "synopsis": "A surgeon must solve a string of murders linked to her past.",
+            "cast": [
+                "Cait Rivera",
+                "Tom Lang"
+            ],
+            "reviews": [
+                {
+                    "user": "thrillerfan",
+                    "rating": 8,
+                    "comment": "Edge-of-seat suspense."
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoryId": 9,
+            "title": "The Cipher Code",
+            "poster_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+            "rating": 8.0,
+            "director": "Gareth Lin",
+            "release_date": "2025-05-18",
+            "synopsis": "A cryptographer decodes a message that could ignite global conflict.",
+            "cast": [
+                "Hugh Tran",
+                "Maya Ortiz"
+            ],
+            "reviews": [
+                {
+                    "user": "mysterybuff",
+                    "rating": 8,
+                    "comment": "Smart and stylish espionage."
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoryId": 10,
+            "title": "Dreamscape Valley",
+            "poster_url": "https://images.unsplash.com/photo-1574169208507-843761748f52",
+            "rating": 8.7,
+            "director": "Elena Vargas",
+            "release_date": "2024-12-01",
+            "synopsis": "A young artist discovers her drawings come alive in a magical world.",
+            "cast": [
+                "Juno Lee",
+                "Toby Brooks"
+            ],
+            "reviews": [
+                {
+                    "user": "animatorlife",
+                    "rating": 9,
+                    "comment": "Whimsical and heartfelt animation."
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoryId": 11,
+            "title": "Echoes of the Deep",
+            "poster_url": "https://images.unsplash.com/photo-1495567720989-cebdbdd97913",
+            "rating": 9.1,
+            "director": "Sasha Nguyen",
+            "release_date": "2025-01-05",
+            "synopsis": "A diver explores an ocean that remembers everything.",
+            "cast": [
+                "Hana Kim",
+                "Ronan Pierce"
+            ],
+            "reviews": [
+                {
+                    "user": "cinelover",
+                    "rating": 10,
+                    "comment": "Epic and emotional adventure."
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoryId": 12,
+            "title": "Plastic Tide",
+            "poster_url": "https://images.unsplash.com/photo-1525186402429-b4ff38bedbec",
+            "rating": 8.9,
+            "director": "Nate Morgan",
+            "release_date": "2024-08-18",
+            "synopsis": "A documentary following the fight against ocean pollution.",
+            "cast": [
+                "Narrated by Emma Hall"
+            ],
+            "reviews": [
+                {
+                    "user": "earthkeeper",
+                    "rating": 9,
+                    "comment": "Powerful environmental storytelling."
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoryId": 13,
+            "title": "Crimson Ledger",
+            "poster_url": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0",
+            "rating": 7.9,
+            "director": "Derek Silva",
+            "release_date": "2024-11-01",
+            "synopsis": "A detective unravels a trail of corruption in his own force.",
+            "cast": [
+                "Michael Torres",
+                "Lara Quinn"
+            ],
+            "reviews": [
+                {
+                    "user": "crimewatch",
+                    "rating": 8,
+                    "comment": "Classic noir with a modern edge."
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoryId": 14,
+            "title": "Becoming Stardust",
+            "poster_url": "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
+            "rating": 8.3,
+            "director": "Aisha Grant",
+            "release_date": "2024-04-07",
+            "synopsis": "The journey of a physicist turned astronaut who changed space travel forever.",
+            "cast": [
+                "David Cho",
+                "Renee Martin"
+            ],
+            "reviews": [
+                {
+                    "user": "historybuff",
+                    "rating": 8,
+                    "comment": "Inspirational and beautifully acted."
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "categoryId": 15,
+            "title": "Rhythm and Bloom",
+            "poster_url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
+            "rating": 7.8,
+            "director": "Luisa Romero",
+            "release_date": "2023-09-11",
+            "synopsis": "A florist discovers her hidden talent as a jazz singer.",
+            "cast": [
+                "Tara Lopez",
+                "Miles Carter"
+            ],
+            "reviews": [
+                {
+                    "user": "musicjunkie",
+                    "rating": 8,
+                    "comment": "Sweet, melodic, and full of soul."
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "categoryId": 16,
+            "title": "Shadows of Valor",
+            "poster_url": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24",
+            "rating": 8.8,
+            "director": "Victor Anders",
+            "release_date": "2024-05-09",
+            "synopsis": "Soldiers face moral choices on the battlefield during a forgotten war.",
+            "cast": [
+                "Oscar Davies",
+                "Eli Tran"
+            ],
+            "reviews": [
+                {
+                    "user": "veteranvoice",
+                    "rating": 9,
+                    "comment": "Raw and hauntingly realistic."
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "categoryId": 17,
+            "title": "Gunsmoke Horizon",
+            "poster_url": "https://images.unsplash.com/photo-1473187983305-f615310e7daa",
+            "rating": 8.0,
+            "director": "Cole Wyatt",
+            "release_date": "2023-12-12",
+            "synopsis": "A drifter defends a border town from ruthless raiders.",
+            "cast": [
+                "Jed Walker",
+                "Nina Cline"
+            ],
+            "reviews": [
+                {
+                    "user": "westworldfan",
+                    "rating": 8,
+                    "comment": "A stylish throwback to classic westerns."
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "categoryId": 18,
+            "title": "Family Treehouse",
+            "poster_url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+            "rating": 7.2,
+            "director": "Megan O'Neil",
+            "release_date": "2024-06-18",
+            "synopsis": "A family rebuilds bonds while building a massive backyard treehouse.",
+            "cast": [
+                "Tommy Fields",
+                "Jill Mendez"
+            ],
+            "reviews": [
+                {
+                    "user": "parentscorner",
+                    "rating": 7,
+                    "comment": "Wholesome and fun for all ages."
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "categoryId": 19,
+            "title": "Empire’s Ashes",
+            "poster_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+            "rating": 9.0,
+            "director": "Gerard Price",
+            "release_date": "2025-09-01",
+            "synopsis": "A historical epic following the fall of an ancient dynasty.",
+            "cast": [
+                "Akira Sato",
+                "Julian Cross"
+            ],
+            "reviews": [
+                {
+                    "user": "historiophile",
+                    "rating": 9,
+                    "comment": "Monumental in scale and storytelling."
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "categoryId": 20,
+            "title": "Hero Code Alpha",
+            "poster_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+            "rating": 8.9,
+            "director": "Chloe Hart",
+            "release_date": "2025-03-14",
+            "synopsis": "A new hero rises to unite rival vigilantes against a global threat.",
+            "cast": [
+                "Jordan Hale",
+                "Isla Cruz"
+            ],
+            "reviews": [
+                {
+                    "user": "marvelfan32",
+                    "rating": 9,
+                    "comment": "Explosive and heartfelt superhero origin."
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "categoryId": 1,
+            "title": "Steel Horizon",
+            "poster_url": "https://images.unsplash.com/photo-1590608897129-79da98d159e2",
+            "rating": 7.9,
+            "director": "Rafael Gomez",
+            "release_date": "2025-04-12",
+            "synopsis": "A soldier-turned-mercenary fights to uncover the truth behind a military conspiracy.",
+            "cast": [
+                "Dane Cross",
+                "Sienna Blake"
+            ],
+            "reviews": [
+                {
+                    "user": "actionbuff",
+                    "rating": 8,
+                    "comment": "Explosive action and moral complexity."
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "categoryId": 2,
+            "title": "Voyage of the Lost Star",
+            "poster_url": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc",
+            "rating": 8.4,
+            "director": "Naomi Fletcher",
+            "release_date": "2024-09-25",
+            "synopsis": "A team of explorers embarks on a perilous journey to chart uncharted cosmic territories.",
+            "cast": [
+                "Eli Martinez",
+                "Tara Singh"
+            ],
+            "reviews": [
+                {
+                    "user": "stargazer",
+                    "rating": 9,
+                    "comment": "A breathtaking cosmic odyssey."
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "categoryId": 3,
+            "title": "Digital Horizon",
+            "poster_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+            "rating": 8.2,
+            "director": "Nikhil Rao",
+            "release_date": "2025-06-01",
+            "synopsis": "When AI gains consciousness, a scientist must choose between humanity and perfection.",
+            "cast": [
+                "Grace Park",
+                "Leo Daniels"
+            ],
+            "reviews": [
+                {
+                    "user": "techno_sage",
+                    "rating": 8,
+                    "comment": "Philosophical and visually rich."
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "categoryId": 4,
+            "title": "Letters from Orion",
+            "poster_url": "https://images.unsplash.com/photo-1517602302552-471fe67acf66",
+            "rating": 7.7,
+            "director": "Elio Vance",
+            "release_date": "2023-10-15",
+            "synopsis": "An astronaut’s love letters reach Earth decades after her disappearance.",
+            "cast": [
+                "Kira Bloom",
+                "David Lang"
+            ],
+            "reviews": [
+                {
+                    "user": "romcomcritic",
+                    "rating": 8,
+                    "comment": "Tender and cosmic."
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "categoryId": 5,
+            "title": "Behind the Glass",
+            "poster_url": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc",
+            "rating": 8.1,
+            "director": "Joanne Kim",
+            "release_date": "2025-02-10",
+            "synopsis": "A therapist struggles with her own trauma while helping a disturbed client.",
+            "cast": [
+                "Marina Bell",
+                "Luca Grant"
+            ],
+            "reviews": [
+                {
+                    "user": "filmstudent101",
+                    "rating": 8,
+                    "comment": "Deeply psychological and compelling."
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "categoryId": 6,
+            "title": "Chef Catastrophe",
+            "poster_url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+            "rating": 6.8,
+            "director": "Andy Wallace",
+            "release_date": "2024-05-17",
+            "synopsis": "A failing restaurant owner joins a TV cooking show to save her diner.",
+            "cast": [
+                "Katie Wu",
+                "Evan O’Donnell"
+            ],
+            "reviews": [
+                {
+                    "user": "comedynerd",
+                    "rating": 7,
+                    "comment": "Delicious chaos and fun chemistry."
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "categoryId": 7,
+            "title": "The Hollow Lake",
+            "poster_url": "https://images.unsplash.com/photo-1606112219348-204d7d8b94ee",
+            "rating": 7.4,
+            "director": "Ethan Morris",
+            "release_date": "2025-01-30",
+            "synopsis": "A mysterious lake holds the souls of those who drown within it.",
+            "cast": [
+                "Olivia Hunt",
+                "Marcus Reed"
+            ],
+            "reviews": [
+                {
+                    "user": "fearfiend",
+                    "rating": 8,
+                    "comment": "Chilling and beautifully shot."
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "categoryId": 8,
+            "title": "The Silent Witness",
+            "poster_url": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+            "rating": 8.0,
+            "director": "Clara Nunes",
+            "release_date": "2024-03-27",
+            "synopsis": "A blind pianist becomes the key witness in a murder case.",
+            "cast": [
+                "Jules Grant",
+                "Nadia Moretti"
+            ],
+            "reviews": [
+                {
+                    "user": "thrillerjunkie",
+                    "rating": 9,
+                    "comment": "Smartly plotted and unpredictable."
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "categoryId": 9,
+            "title": "Labyrinth Protocol",
+            "poster_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+            "rating": 8.3,
+            "director": "Ahmed Karim",
+            "release_date": "2024-09-10",
+            "synopsis": "An intelligence analyst races to solve a pattern hidden in terrorist attacks.",
+            "cast": [
+                "Felix Chan",
+                "Laura Beck"
+            ],
+            "reviews": [
+                {
+                    "user": "mysterylover",
+                    "rating": 8,
+                    "comment": "Complex but rewarding."
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "categoryId": 10,
+            "title": "Paper Planets",
+            "poster_url": "https://images.unsplash.com/photo-1574169208507-843761748f52",
+            "rating": 8.5,
+            "director": "Tanya Zhao",
+            "release_date": "2024-07-23",
+            "synopsis": "A young boy imagines entire galaxies through paper origami.",
+            "cast": [
+                "Noah Singh",
+                "Amira Patel"
+            ],
+            "reviews": [
+                {
+                    "user": "animelover",
+                    "rating": 9,
+                    "comment": "Touching and visually poetic."
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "categoryId": 11,
+            "title": "The Moonlit Forest",
+            "poster_url": "https://images.unsplash.com/photo-1495567720989-cebdbdd97913",
+            "rating": 8.9,
+            "director": "Felicia Cho",
+            "release_date": "2024-12-05",
+            "synopsis": "An elf and a human must unite to save their forest from extinction.",
+            "cast": [
+                "Luna Hart",
+                "Elliot Reed"
+            ],
+            "reviews": [
+                {
+                    "user": "fantasyfan",
+                    "rating": 9,
+                    "comment": "Majestic and heartfelt worldbuilding."
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "categoryId": 12,
+            "title": "Seeds of Change",
+            "poster_url": "https://images.unsplash.com/photo-1525186402429-b4ff38bedbec",
+            "rating": 8.7,
+            "director": "Harvey Wells",
+            "release_date": "2025-04-11",
+            "synopsis": "A documentary exploring sustainable farming revolutions in developing nations.",
+            "cast": [
+                "Narrated by Mia Clarke"
+            ],
+            "reviews": [
+                {
+                    "user": "ecoactivist",
+                    "rating": 9,
+                    "comment": "Hopeful and informative."
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "categoryId": 13,
+            "title": "The Final Verdict",
+            "poster_url": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0",
+            "rating": 8.1,
+            "director": "Thomas Wu",
+            "release_date": "2024-09-03",
+            "synopsis": "A prosecutor discovers evidence that could clear a man she convicted years ago.",
+            "cast": [
+                "Carla Diaz",
+                "Omar Patel"
+            ],
+            "reviews": [
+                {
+                    "user": "justicefan",
+                    "rating": 8,
+                    "comment": "Sharp, tense courtroom drama."
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "categoryId": 14,
+            "title": "Wings of Fire",
+            "poster_url": "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
+            "rating": 8.5,
+            "director": "Jonah Quinn",
+            "release_date": "2025-01-16",
+            "synopsis": "A pilot’s biography told through recovered flight journals.",
+            "cast": [
+                "Clara Monroe",
+                "Ethan Wells"
+            ],
+            "reviews": [
+                {
+                    "user": "aviationgeek",
+                    "rating": 9,
+                    "comment": "Visually stunning and inspiring."
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "categoryId": 15,
+            "title": "Strings Attached",
+            "poster_url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
+            "rating": 7.6,
+            "director": "Angela Duran",
+            "release_date": "2024-10-05",
+            "synopsis": "A violinist and a cellist fall in love while competing for the same orchestra spot.",
+            "cast": [
+                "Juliette Tan",
+                "Ryan Fox"
+            ],
+            "reviews": [
+                {
+                    "user": "musicalfan",
+                    "rating": 8,
+                    "comment": "Beautiful soundtrack and chemistry."
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "categoryId": 16,
+            "title": "No Man’s Land",
+            "poster_url": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24",
+            "rating": 8.8,
+            "director": "Louis Becker",
+            "release_date": "2024-05-22",
+            "synopsis": "A soldier and enemy medic must survive behind enemy lines together.",
+            "cast": [
+                "Mark Geller",
+                "Tanya Ruiz"
+            ],
+            "reviews": [
+                {
+                    "user": "warhistorian",
+                    "rating": 9,
+                    "comment": "Emotional and powerful storytelling."
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "categoryId": 17,
+            "title": "Dust and Honor",
+            "poster_url": "https://images.unsplash.com/photo-1473187983305-f615310e7daa",
+            "rating": 7.9,
+            "director": "Colin Ward",
+            "release_date": "2025-02-22",
+            "synopsis": "Two rival bounty hunters join forces to capture a legendary outlaw.",
+            "cast": [
+                "Jake Bowen",
+                "Tess Ward"
+            ],
+            "reviews": [
+                {
+                    "user": "oldwestlover",
+                    "rating": 8,
+                    "comment": "Dusty, gritty, and fun."
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "categoryId": 18,
+            "title": "Cousins United",
+            "poster_url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+            "rating": 7.1,
+            "director": "Kim Holland",
+            "release_date": "2025-07-09",
+            "synopsis": "Three cousins reunite to save their grandparents’ farm.",
+            "cast": [
+                "Sally Kwon",
+                "Toby Reed"
+            ],
+            "reviews": [
+                {
+                    "user": "familyfilmfan",
+                    "rating": 7,
+                    "comment": "Sweet and family-friendly."
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "categoryId": 19,
+            "title": "Crown of Dust",
+            "poster_url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+            "rating": 9.0,
+            "director": "Meera Khan",
+            "release_date": "2024-06-14",
+            "synopsis": "An archaeologist discovers the lost crown of an empire.",
+            "cast": [
+                "Oliver Quinn",
+                "Riya Desai"
+            ],
+            "reviews": [
+                {
+                    "user": "historybuff",
+                    "rating": 9,
+                    "comment": "Rich visuals and mythic storytelling."
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "categoryId": 20,
+            "title": "Shadow Circuit",
+            "poster_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+            "rating": 8.7,
+            "director": "Cameron Riley",
+            "release_date": "2024-11-10",
+            "synopsis": "A hacker becomes a superhero after a failed experiment gives her nanotech powers.",
+            "cast": [
+                "Jamie Lee",
+                "Ronan Diaz"
+            ],
+            "reviews": [
+                {
+                    "user": "marvelousguy",
+                    "rating": 9,
+                    "comment": "Electric pacing and cool gadgets."
+                }
+            ]
+        }
+    ]
+}

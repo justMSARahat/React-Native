@@ -1,0 +1,11 @@
+{
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "**/react-native/types_generated/*"
+  ],
+  "search.exclude": {
+    "**/node_modules/react-native/types_generated": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/react-native/types_generated": true
+  }
+}
