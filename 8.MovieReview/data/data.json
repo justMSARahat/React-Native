@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Action",
-            "image_url": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c2"
+            "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
         },
         {
             "id": 2,
@@ -28,7 +28,7 @@
         {
             "id": 6,
             "name": "Comedy",
-            "image_url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+            "image_url": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
         },
         {
             "id": 7,
@@ -48,7 +48,7 @@
         {
             "id": 10,
             "name": "Animation",
-            "image_url": "https://images.unsplash.com/photo-1574169208507-843761748f52"
+            "image_url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d"
         },
         {
             "id": 11,
@@ -58,7 +58,7 @@
         {
             "id": 12,
             "name": "Documentary",
-            "image_url": "https://images.unsplash.com/photo-1525186402429-b4ff38bedbec"
+            "image_url": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24"
         },
         {
             "id": 13,
